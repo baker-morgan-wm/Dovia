@@ -4,18 +4,55 @@
 <head>
     <link rel="stylesheet" type="text/css" href="sheet.css">
     <meta charset="UTF-8">
-    <title></title>
+    <title>Sign Up</title>
 </head>
-<body>
+<body background="https://s-media-cache-ak0.pinimg.com/originals/76/c1/a3/76c1a31c991700d1686e4273f58342f8.gif" width="100">
+<h1>Sign Up</h1>
+<div id="enter">
+    <h2>Personal Information</h2>
 <form action="demo_form.asp">
     First name: <input type="text" name="fname"><br>
     Last name: <input type="text" name="lname"><br>
     Title (jr.,sr.,etc): <input type="text" name="title"><br>
     Age: <input type="text" name="age"><br>
-    Email Address
-    Phone Number
-    Phone type
+    Email Address: <input type="text" name="email"><br>
+    Phone Number: <input type="text" name="pnumber"><br>
+    Phone type: <input type="text" name="ptype"><br>
     <input type="submit" value="Submit">
 </form>
+    </div>
+<div id="address">
+    <h2>Shipping Information</h2>
+<form action="demo_form.asp">
+    First Address: <input type="text" name="faddress"><br>
+    State: <input type="text" name="state"><br>
+    City: <input type="text" name="city"> <br>
+    2nd Address(optional): <input type="text" name="2address"><br>
+    Zip Code: <input type="text" name="zcode"><br>
+    PO Box: <input type="text" name="pbox"><br>
+    <input type="submit" value="Submit">
+</form>
+    </div>
+<div id="payment">
+    <h2>Payment Information</h2>
+    <form action="demo_form.asp">
+        Payment Method: <input type="text" name="pmethod"><br>
+        Name on Credit Card: <input type="text" name="ccname"><br>
+        Number on Credit Card: <input type="text" name="#"><br>
+        Security code on Credit Card: <input type="text" name="scode"><br>
+        <input type="submit" value="Submit">
+    </form>
+</div>
+<div id="account">
+    <h2>Account Info</h2>
+    <form action="demo_form.asp">
+        Username: <input type="text" name="uname"><br>
+        Password: <input type="text" name="pword"><br>
+        Confirm Password: <input type="text" name="cpword"><br>
+        E-mail: <input type="text" name="email"><br>
+        Confirm E-mail: <input type="text" name="cemial"><br>
+        <input type="submit" value="Submit">
+    </form>
+</div>
 </body>
 </html>
